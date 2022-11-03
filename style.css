@@ -26,9 +26,11 @@
    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 10px;
 }
 .img-container img{   
     height: 100%;
+    width: 100%;
     border-radius: 20px 0px 0px 20px;
 }
 .img-container img:hover{
@@ -36,12 +38,27 @@
    transition: 2s;
 }
 .audio-container{
+    justify-content: center;
     display: flex;
-    align-items: center;
+    align-items: end;
+    position: relative;
+}
+.audio-container img{
+    width: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+.vid-container{
+    height: 100%;
+    display: block;
 }
 .vid-container video{
     height: 100%;
-    width: 80%;
+    width: 100%;
+    border-radius: 20px 0px 20px 0px;
+}
+.img-nus-overlay{
+    position: absolute;
+
 }
 .form-container{
     margin-top: 10px;
@@ -53,7 +70,7 @@
     text-align: center;
     background-color: #CCC;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    width: 30%;
+    width: 36%;
     border-radius: 10px;
 }
 .input-label-container{
@@ -83,3 +100,5 @@ input{
     background-color: green;
     color: #FFF;
 }
+
+
