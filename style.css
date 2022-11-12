@@ -2,6 +2,27 @@
     max-width: 80vw;
     margin: auto;
   }
+  .night-mode{
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #FFF;
+    font-weight: 600;
+  }
+  .night-mode:hover{
+    cursor: pointer;
+  }
+  .normal-mode{
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+   
+  }
+  .normal-mode:hover{
+    cursor: pointer;
+  }
 .title{
     text-align: center;
     font-size: 24px;
@@ -76,9 +97,18 @@ audio {
     border-radius: 0px 20px 20px 0px;
 }
 .input-label-container{
-    padding: 20px;
+    padding: 12px;
     text-align: start;
     margin-left: 15px;
+}
+#message {
+    padding: 5px;
+}
+#password-message{
+    padding: 5px;
+}
+#rep-password{
+    padding: 5px;
 }
 .label{
     margin-left: 5px;
@@ -94,6 +124,7 @@ input{
 .btn-container button{
     padding: 10px;
     width: 83%;
+    margin-left: -10px;
     font-weight: 600;
     border-radius: 10px;
     border: none;
