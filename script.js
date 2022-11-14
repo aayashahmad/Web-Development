@@ -60,7 +60,7 @@ function verifyPassword() {
     var pw1 = document.getElementById("pswd");
     var pw2 = document.getElementById("repeat");
     //compre password and confr password
-    if(pswd === repeat)
+    if(pw1 === pw2)
     {	
         document.getElementById("rep-password").innerHTML = "Password created successfully";  
     } else {
