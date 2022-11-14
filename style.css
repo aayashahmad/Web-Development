@@ -91,7 +91,9 @@ audio {
 }
 .form-inner{
     text-align: center;
-    background-color: #CCC;
+    background-image: url(/img/49.jpg);
+    background-size: 110%;
+    /* background-color: #CCC; */
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
    height: 100%;
     border-radius: 0px 20px 20px 0px;
@@ -103,12 +105,18 @@ audio {
 }
 #message {
     padding: 5px;
+    font-weight: 600;
+    text-decoration: underline;
 }
 #password-message{
     padding: 5px;
+    font-weight: 600;
+    text-decoration: underline;
 }
 #rep-password{
     padding: 5px;
+    font-weight: 600;
+    text-decoration: underline;
 }
 .label{
     margin-left: 5px;
